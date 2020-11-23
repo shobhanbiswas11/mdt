@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^12.1.10",
     "immer": "^7.0.14",
     "lodash": "^4.17.20",
+    "node-sass": "4.14.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.0",
@@ -20,7 +21,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "publish": "yarn build && node publish.js"
   },
   "eslintConfig": {
     "extends": [

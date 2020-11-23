@@ -36,7 +36,7 @@ table {
   justify-content: space-between;
 }
 
-.MuiFormControl-root {
+table .MuiFormControl-root {
   width: 70px;
 }
 
